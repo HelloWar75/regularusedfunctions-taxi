@@ -203,8 +203,8 @@ const apiCallGoogle = async (request, settings, config) => {
 
 // FINALIZADO
 const valSignupData = async (config, userDetails, settings) => {
-    const project_validator = await valProj(_0x2e3758.firebaseProjectId);
-    const referral_id = [...Array(5)].map(_0x5b9878 => "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[~~(Math.random() * "ABCDEFGHIJKLMNOPQRSTUVWXYZ".length)]).join('');
+    const project_validator = await valProj(config.firebaseProjectId);
+    const referral_id = [...Array(5)].map(itinerator_val => "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[~~(Math.random() * "ABCDEFGHIJKLMNOPQRSTUVWXYZ".length)]).join('');
     if (project_validator.success) {
         let user_data = {
             'createdAt': new Date().getTime(),
