@@ -1,0 +1,14 @@
+{
+  "name": "regularusedfunctions",
+  "version": "2.1.0",
+  "description": "Regular Used Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Exicube App Solutions (OPC) Private Limited",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "node-fetch": "^2.6.7"
+  }
+}
