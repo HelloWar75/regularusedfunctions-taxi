@@ -215,7 +215,7 @@ const valSignupData = async (config, userDetails, settings) => {
             'usertype': userDetails.usertype,
             'referralId': referral_id,
             'approved': true,
-            'walletBalance': 0x0,
+            'walletBalance': 0,
             'pushToken': "init",
             'signupViaReferral': userDetails.signupViaReferral ? userDetails.signupViaReferral : " "
         };
